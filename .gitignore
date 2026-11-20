@@ -1,0 +1,47 @@
+# User-specified core ignore rules
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+
+# Python virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Python bytecode and cache
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases and runtime state
+*.db
+*.sqlite3
+queue.db
+
+# Large serialized model files (reproducible via python train_model.py)
+model.pkl
+*.pkl
+
+# Streamlit local runtime settings and secrets
+.streamlit/secrets.toml
+
+# IDE and Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
